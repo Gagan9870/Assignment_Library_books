@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class FtoC{
+    public static void main(String[] args){
+        Scanner s1=new Scanner(System.in);
+        float temp=s1.nextFloat();
+        float c=((temp-32)/(float)1.8);
+
+
+        System.out.println(c);
+        s1.close();
+    }
+}
